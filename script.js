@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const encodedMessage = encodeURIComponent(waMessage);
             
             // Replace with your WhatsApp number
-            const waUrl = `https://wa.me/+1234567890?text=${encodedMessage}`;
+            const waUrl = `https://wa.me/+923045961066?text=${encodedMessage}`;
             
             // Open WhatsApp
             window.open(waUrl, '_blank');
@@ -103,4 +103,5 @@ style.innerHTML = `
     100% { transform: translateX(0); }
 }
 `;
+
 document.head.appendChild(style);
